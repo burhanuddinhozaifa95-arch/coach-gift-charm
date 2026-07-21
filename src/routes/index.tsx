@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { CheckCircle, ArrowRight, Users, ShieldCheck } from "lucide-react";
-import coachLogo from "@/assets/coach-logo.png.asset.json";
+import coachLogo from "@/assets/coach-logo.png";
 import claimedBadge from "@/assets/claimed-badge.png.asset.json";
 
 export const Route = createFileRoute("/")({
@@ -82,7 +82,7 @@ function Index() {
           {/* Logo */}
           <div className="flex flex-col items-center text-center">
             <img
-              src={coachLogo.url}
+              src={coachLogo}
               alt="Coach New York"
               className="h-24 sm:h-28 w-auto object-contain"
             />
