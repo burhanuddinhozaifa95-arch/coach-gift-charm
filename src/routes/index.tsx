@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { CheckCircle, ArrowRight, Users, ShieldCheck } from "lucide-react";
-import coachLogo from "@/assets/coach-logo.png.asset.json";
+import coachLogo from "@/assets/coach-logo.png";
 import claimedBadge from "@/assets/claimed-badge.png.asset.json";
 
 export const Route = createFileRoute("/")({
