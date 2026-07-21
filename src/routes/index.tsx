@@ -58,7 +58,7 @@ function LiveToast() {
       <div className="flex items-center gap-2 rounded-full border border-stone-200 bg-white px-4 py-2 shadow-lg">
         <CheckCircle className="h-4 w-4 shrink-0" style={{ color: "#00C851" }} />
         <span className="text-sm font-medium text-stone-700 whitespace-nowrap">
-          {name} - Claimed $750 Gift Card
+          {name} - Claimed $750 Coach Gift Card
         </span>
       </div>
     </div>
@@ -86,12 +86,6 @@ function Index() {
               alt="Coach New York"
               className="h-24 sm:h-28 w-auto object-contain"
             />
-            <p
-              className="mt-2 text-[10px] sm:text-xs font-semibold tracking-[0.4em] text-black"
-              style={{ fontFamily: "'Playfair Display', Georgia, serif" }}
-            >
-              NEW YORK
-            </p>
           </div>
 
           <hr className="my-6 border-stone-200" />
@@ -127,7 +121,7 @@ function Index() {
               <li key={i} className="flex items-center gap-3">
                 <span
                   className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-white font-bold text-sm"
-                  style={{ backgroundColor: "#6B3A20" }}
+                  style={{ backgroundColor: "#000000" }}
                 >
                   {i + 1}
                 </span>
@@ -147,9 +141,6 @@ function Index() {
             <ArrowRight className="h-5 w-5" />
           </a>
 
-          <p className="mt-4 text-center text-[11px] text-stone-500">
-            Rewards fulfilled after offer completion. Limited availability.
-          </p>
         </div>
 
         {/* hidden reference to preserve badge asset import for future use */}
