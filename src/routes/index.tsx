@@ -168,8 +168,8 @@ function Index() {
           </div>
 
           {/* Steps */}
-          <div className="mt-6 rounded-xl border border-stone-100 bg-[#FBF7EC] p-6">
-            <p className="text-xs font-bold tracking-widest uppercase text-stone-500 text-center">
+          <div className="mt-6 rounded-xl border border-stone-200 bg-stone-100 p-6">
+            <p className="text-[11px] sm:text-xs font-bold tracking-widest uppercase text-stone-500 text-center whitespace-nowrap">
               4 Simple Steps — Nothing To Lose
             </p>
             <ol className="mt-5 space-y-4">
@@ -193,9 +193,9 @@ function Index() {
           </div>
 
           {/* Urgency */}
-          <div className="mt-5 flex items-center justify-center gap-2 text-center">
+          <div className="mt-5 flex items-center justify-center gap-2 text-center whitespace-nowrap">
             <AlertTriangle className="h-4 w-4 shrink-0" style={{ color: "#6B3A20" }} />
-            <span className="text-sm font-medium" style={{ color: "#6B3A20" }}>
+            <span className="text-[13px] sm:text-sm font-medium" style={{ color: "#6B3A20" }}>
               Limited spots remaining — Offer expires soon
             </span>
           </div>
@@ -205,7 +205,7 @@ function Index() {
             href={CTA_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl py-4 text-lg font-bold tracking-wide text-white bg-black transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:bg-[#6B3A20]"
+            className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl py-4 text-base font-bold tracking-wide text-white bg-black transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:bg-[#6B3A20]"
           >
             CLAIM YOUR $750 GIFT CARD
             <ArrowRight className="h-5 w-5" />
