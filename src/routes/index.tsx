@@ -82,7 +82,7 @@ function Index() {
           {/* Logo */}
           <div className="flex flex-col items-center text-center">
             <img
-              src={coachLogo.url}
+              src={coachLogo}
               alt="Coach New York"
               className="h-24 sm:h-28 w-auto object-contain"
             />
