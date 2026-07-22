@@ -211,13 +211,10 @@ function Index() {
             <ArrowRight className="h-5 w-5" />
           </a>
 
-          <p className="mt-4 text-center text-xs sm:text-sm text-stone-500">
-            100% free · No credit card needed · Instant qualification
-          </p>
         </div>
-
-        <FaqSection />
       </main>
+    </div>
+
     </div>
   );
 }
